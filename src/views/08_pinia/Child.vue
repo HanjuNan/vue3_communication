@@ -9,7 +9,8 @@
 import useInfoStore from "../../store/modules/info";
 //获取小仓库对象
 let infoStore = useInfoStore();
-console.log(infoStore);
+console.log("useInfoStore = ",useInfoStore)
+console.dir(infoStore);
 //修改数据方法
 const updateCount = () => {
   //仓库调用自身的方法去修改仓库的数据

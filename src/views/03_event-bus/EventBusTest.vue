@@ -9,7 +9,7 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup lang="ts" name="EventBusTest">
 //引入子组件
 import Child1 from "./Child1.vue";
 import Child2 from "./Child2.vue";
